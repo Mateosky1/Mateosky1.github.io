@@ -7,8 +7,8 @@ first_name: Christopher
 middle_name: M.
 last_name: Pulupa
 email: christopher.pulupa@epn.edu.ec
-description: > Estudiante de Ingeniería en Computación | EPN | Entusiasta de Redes y Cloud Computing. # the ">" symbol means to ignore newlines until "footer_text:"
-  
+description: > 
+Estudiante de Ingeniería en Computación | EPN | Entusiasta de Redes y Cloud Computing. # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   © 2026 Christopher Pulupa.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website, EPN, Computacion # add your own keywords or leave empty
