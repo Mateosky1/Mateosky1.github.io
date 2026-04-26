@@ -4,10 +4,10 @@ middle_name: M.
 last_name: Pulupa
 email: christopher.pulupa@epn.edu.ec
 description: >
-  Estudiante de Ingeniería en Computación | EPN | Entusiasta de Redes y Cloud Computing.
+  Estudiante de Ingeniería en Computación en la EPN. Entusiasta de Redes y Cloud Computing.
 footer_text: >
   © 2026 Christopher Pulupa.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website, EPN, Computacion
+keywords: jekyll, portfolio, EPN
 lang: en
 icon: ⚛️
 social:
