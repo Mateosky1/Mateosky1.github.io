@@ -1,22 +1,18 @@
-# -----------------------------------------------------------------------------
-# Site settings
-# -----------------------------------------------------------------------------
-
 title: Christopher Mateo Pulupa Herrera
 first_name: Christopher
 middle_name: M.
 last_name: Pulupa
 email: christopher.pulupa@epn.edu.ec
-description: > 
-Estudiante de Ingeniería en Computación | EPN | Entusiasta de Redes y Cloud Computing. # the ">" symbol means to ignore newlines until "footer_text:"
+description: >
+  Estudiante de Ingeniería en Computación | EPN | Entusiasta de Redes y Cloud Computing.
 footer_text: >
   © 2026 Christopher Pulupa.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website, EPN, Computacion # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+keywords: jekyll, jekyll-theme, academic-website, portfolio-website, EPN, Computacion
+lang: en
+icon: ⚛️
 social:
   username: Mateosky1
-  linkedin_username: christopher-pulupa  # Puedes cambiarlo por el tuyo exacto después
+  linkedin_username: christopher-pulupa
   github_username: Mateosky1
 profile:
   align: right
@@ -24,4 +20,3 @@ profile:
   address: >
     Quito, Ecuador<br />
     Escuela Politécnica Nacional
-
