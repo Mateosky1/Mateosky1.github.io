@@ -35,7 +35,6 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-toc
   - jemoji
-  - jekyll-twitter-plugin
 # -----------------------------------------------------------------------------
 # Elementos de la Plantilla (Evitan el error de 'nil')
 # -----------------------------------------------------------------------------
