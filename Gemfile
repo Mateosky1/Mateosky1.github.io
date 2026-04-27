@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-
 gem "jekyll", "~> 4.3.0"
 
 group :jekyll_plugins do
@@ -12,8 +11,6 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-twitter-plugin"
   gem "jekyll-scholar"
-  gem "feedjira"
-  gem "httparty"
 end
 
 gem "webrick", "~> 1.8"
