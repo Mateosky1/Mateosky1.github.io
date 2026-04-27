@@ -14,3 +14,5 @@ group :jekyll_plugins do
   gem "feedjira"
   gem "httparty"
 end
+
+gem "webrick", "~> 1.8"
