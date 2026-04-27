@@ -2,6 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
+remote_theme: alshedivat/al-folio
 title: Christopher Mateo Pulupa Herrera
 first_name: Christopher
 middle_name: Mateo
@@ -56,17 +57,11 @@ third_party_libraries:
   typograms: true
 
 plugins:
-  - jekyll-get-json
   - jekyll-feed
+  - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-minifier
-  - jekyll-paginate-v2
-  - jekyll-patch-main-repo
   - jekyll-remote-theme
-  - jekyll-scheduler
   - jekyll-sitemap
   - jekyll-titles-from-headings
   - jekyll-toc
-  - jekyll-twitter-plugin
-  - jekyll-white-space-remover
   - jemoji
