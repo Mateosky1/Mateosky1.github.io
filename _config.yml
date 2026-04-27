@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 title: Christopher Mateo Pulupa Herrera
 first_name: Christopher
-middle_name: M.
+middle_name: Mateo
 last_name: Pulupa Herrera
 email: christopher.pulupa@epn.edu.ec
 description: >
@@ -21,10 +21,9 @@ icon: ⚛️
 url: https://Mateosky1.github.io
 baseurl: ""
 repository: Mateosky1/Mateosky1.github.io
-# remote_theme: alshedivat/al-folio # <--- LA COMENTAMOS para usar tus archivos locales
 
 # -----------------------------------------------------------------------------
-# Plugins - Esta lista debe ser EXACTA
+# Plugins (Lista exacta que requiere al-folio)
 # -----------------------------------------------------------------------------
 plugins:
   - jekyll-feed
@@ -38,20 +37,13 @@ plugins:
   - jekyll-scholar
 
 # -----------------------------------------------------------------------------
-# Elementos de la Plantilla
+# Bibliotecas Obligatorias
 # -----------------------------------------------------------------------------
-navbar_links:
-  - title: about
-    url: /
-  - title: projects
-    url: /projects/
-
 third_party_libraries:
   mathjax: true
   bootstrap: true
   fontawesome: true
   academicons: true
-  jquerry: true
 
 social:
   username: Mateosky1
