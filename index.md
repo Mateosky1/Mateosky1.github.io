@@ -19,10 +19,9 @@ Me especializo en la resolución de problemas lógicos y técnicos, desde el deb
 
 ## 🛠️ Stack Técnico
 
-- **Lenguajes:** Java, Python, C++, SQL.
+- **Lenguajes:** JavaScript, Python, SQL.
 - **Redes:** Configuración de VLANs, protocolos DHCP, troubleshooting en Cisco Packet Tracer.
 - **Infraestructura:** Gestión de servidores Linux (Ubuntu Server), despliegue de nubes privadas (Nextcloud) y optimización de hardware de alto rendimiento.
-- **Multimedia:** Configuración avanzada de OBS para streaming y creación de contenido digital.
 
 ---
 
