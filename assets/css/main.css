@@ -261,9 +261,6 @@ blockquote {
 .navbar.navbar-light a:hover {
   text-decoration: none;
 }
-.navbar.navbar-light .navbar-brand {
-  color: var(--global-text-color);
-}
 .navbar.navbar-light .navbar-nav .nav-item .nav-link {
   color: var(--global-text-color);
 }
@@ -277,32 +274,6 @@ blockquote {
 }
 .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link:hover {
   color: var(--global-hover-color);
-}
-.navbar.navbar-light .navbar-brand.social {
-  padding-bottom: 0;
-  padding-top: 0;
-  font-size: 1.7rem;
-}
-.navbar.navbar-light .navbar-brand.social a img {
-  width: 1.7rem;
-  height: 1.7rem;
-  margin-bottom: 0.5rem;
-}
-.navbar.navbar-light .navbar-brand.social a svg {
-  width: 1.7rem;
-  height: 1.7rem;
-  margin-bottom: 0.5rem;
-}
-.navbar.navbar-light .navbar-brand.social a svg image {
-  width: 1.7rem;
-  height: 1.7rem;
-}
-.navbar.navbar-light .navbar-brand.social a i::before {
-  color: var(--global-text-color);
-  transition-property: all 0.2s ease-in-out;
-}
-.navbar.navbar-light .navbar-brand.social a:hover i::before {
-  color: var(--global-theme-color);
 }
 
 .navbar-toggler .icon-bar {
@@ -550,6 +521,10 @@ footer.sticky-bottom .container {
 
 .profile {
   width: 100%;
+}
+
+.profile.float-right {
+  margin-left: 1rem;
 }
 
 @media (min-width: 576px) {
