@@ -9,8 +9,6 @@ group :jekyll_plugins do
   gem "jekyll-titles-from-headings"
   gem "jekyll-toc"
   gem "jemoji"
-  gem "jekyll-twitter-plugin"
-  gem "jekyll-scholar"
 end
 
 gem "webrick", "~> 1.8"
