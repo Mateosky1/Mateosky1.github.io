@@ -21,8 +21,9 @@
           {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}
-        <!-- Social Icons -->
-        <div class="navbar-brand social">{% social_links %}</div>
+        <div class="navbar-brand social">
+          {% comment %} {% social_links %} {% endcomment %}
+        </div>
       {% endif %}
       <!-- Navbar Toggle -->
       <button
