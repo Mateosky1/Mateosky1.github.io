@@ -1,3 +1,6 @@
+# -----------------------------------------------------------------------------
+# Metadatos del Sitio
+# -----------------------------------------------------------------------------
 title: Christopher Mateo Pulupa Herrera
 first_name: Christopher
 middle_name: Mateo
@@ -8,22 +11,31 @@ description: >
 footer_text: >
   © 2026 Christopher Mateo Pulupa Herrera. Built with passion and code.
 
-# CONFIGURACIÓN VISUAL
+# -----------------------------------------------------------------------------
+# Configuración Visual (Fondo Negro por Defecto)
+# -----------------------------------------------------------------------------
 enforce_ssl: true
-# Esto activa el modo oscuro por defecto (fondo negro)
-enable_darkmode: true
-display_type: dark 
+enable_darkmode: true  # Activa el switch de modo oscuro
+# display_type: dark   # Fuerza el tema oscuro desde el inicio
 
-# URLS
-social:
-  linkedin_username: christopher-pulupa
-  github_username: Mateosky1
-  email: christopher.pulupa@epn.edu.ec
+# -----------------------------------------------------------------------------
+# URLs del Proyecto
+# -----------------------------------------------------------------------------
 url: https://Mateosky1.github.io
 baseurl: ""
 repository: Mateosky1/Mateosky1.github.io
 
-# PLUGINS
+# -----------------------------------------------------------------------------
+# Redes Profesionales (Bloque Único y Limpio)
+# -----------------------------------------------------------------------------
+social:
+  linkedin_username: christopher-pulupa
+  github_username: Mateosky1
+  email: christopher.pulupa@epn.edu.ec # Esto activa el icono de correo
+
+# -----------------------------------------------------------------------------
+# Plugins
+# -----------------------------------------------------------------------------
 plugins:
   - jekyll-feed
   - jekyll-get-json
@@ -32,16 +44,12 @@ plugins:
   - jekyll-titles-from-headings
   - jemoji
 
-# LIBRERÍAS INTERACTIVAS
+# -----------------------------------------------------------------------------
+# Librerías Interactivas
+# -----------------------------------------------------------------------------
 third_party_libraries:
   mathjax: true
   bootstrap: true
   fontawesome: true
   academicons: true
   jquery: true
-
-# REDES PROFESIONALES
-social:
-  linkedin_username: christopher-pulupa
-  github_username: Mateosky1
-  # twitch_username: TuUsuarioSiQuieres
