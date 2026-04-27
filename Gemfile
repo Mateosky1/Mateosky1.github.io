@@ -1,10 +1,11 @@
 source "https://rubygems.org"
 
-# Versión de Jekyll para al-folio
 gem "jekyll", "~> 4.3"
 
-# Plugins necesarios para que la plantilla NO explote
+# Plugins y dependencias necesarias para al-folio
 group :jekyll_plugins do
+  gem "feedjira"            # <--- Esto arregla el error actual
+  gem "httparty"            # <--- Compañero necesario de feedjira
   gem "jekyll-feed"
   gem "jekyll-get-json"
   gem "jekyll-imagemagick"
@@ -17,5 +18,4 @@ group :jekyll_plugins do
   gem "jekyll-scholar"
 end
 
-# Dependencias de seguridad
 gem "webrick", "~> 1.8"
