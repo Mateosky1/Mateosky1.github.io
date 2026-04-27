@@ -2,7 +2,6 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-remote_theme: alshedivat/al-folio
 title: Christopher Mateo Pulupa Herrera
 first_name: Christopher
 middle_name: Mateo
@@ -12,23 +11,37 @@ description: >
   Estudiante de Ingeniería en Computación en la EPN. 
   Entusiasta de Redes y Cloud Computing.
 footer_text: >
-  © 2026 Christopher Mateo Pulupa Herrera.
+  © 2026 Christopher Pulupa.
 keywords: jekyll, portfolio, EPN, Computación
 lang: en
 icon: ⚛️
 
 # -----------------------------------------------------------------------------
-# Social media links
+# Plugins (Asegúrate de que esta lista sea exactamente así)
 # -----------------------------------------------------------------------------
+
+plugins:
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+  - jekyll-toc
+  - jemoji
+
+# -----------------------------------------------------------------------------
+# Libraries (Necesario para que no de error de 'nil')
+# -----------------------------------------------------------------------------
+
+third_party_libraries:
+  mathjax: true
+  bootstrap: true
+  fontawesome: true
 
 social:
   username: Mateosky1
   linkedin_username: christopher-pulupa
   github_username: Mateosky1
-
-# -----------------------------------------------------------------------------
-# Personalization
-# -----------------------------------------------------------------------------
 
 profile:
   align: right
@@ -36,39 +49,3 @@ profile:
   address: >
     Quito, Ecuador<br />
     Escuela Politécnica Nacional
-
-# -----------------------------------------------------------------------------
-# Bloque obligatorio para que la plantilla NO falle (¡NO BORRAR!)
-# -----------------------------------------------------------------------------
-
-third_party_libraries:
-  jquerry: true
-  bootstrap: true
-  mdbootstrap: true
-  fontawesome: true
-  academicons: true
-  mathjax: true
-  chartjs: true
-  echarts: true
-  vega: true
-  plotly: true
-  leaflet: true
-  tikzjax: true
-  typograms: true
-
-plugins:
-  - jekyll-get-json
-  - jekyll-feed
-  - jekyll-get-json
-  - jekyll-imagemagick
-  - jekyll-minifier
-  - jekyll-paginate-v2
-  - jekyll-patch-main-repo
-  - jekyll-remote-theme
-  - jekyll-scheduler
-  - jekyll-sitemap
-  - jekyll-titles-from-headings
-  - jekyll-toc
-  - jekyll-twitter-plugin
-  - jekyll-white-space-remover
-  - jemoji
