@@ -4,37 +4,40 @@ middle_name: Mateo
 last_name: Pulupa Herrera
 email: christopher.pulupa@epn.edu.ec
 description: >
-  Estudiante de Ingeniería en Computación en la EPN. 
-  Entusiasta de Redes y Cloud Computing.
+  Computer Science Student @ EPN | Network Enthusiast | Cloud Infrastructure Explorer
 footer_text: >
-  © 2026 Christopher Mateo Pulupa Herrera.
+  © 2026 Christopher Mateo Pulupa Herrera. Built with passion and code.
 
+# CONFIGURACIÓN VISUAL
+enforce_ssl: true
+# Esto activa el modo oscuro por defecto (fondo negro)
+enable_darkmode: true
+display_type: dark 
+
+# URLS
 url: https://Mateosky1.github.io
 baseurl: ""
 repository: Mateosky1/Mateosky1.github.io
 
+# PLUGINS
 plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-sitemap
   - jekyll-titles-from-headings
-  - jekyll-toc
   - jemoji
 
+# LIBRERÍAS INTERACTIVAS
 third_party_libraries:
   mathjax: true
   bootstrap: true
   fontawesome: true
+  academicons: true
+  jquery: true
 
+# REDES PROFESIONALES
 social:
-  username: Mateosky1
   linkedin_username: christopher-pulupa
   github_username: Mateosky1
-
-profile:
-  align: right
-  image: profpic.jpg
-  address: >
-    Quito, Ecuador<br />
-    Escuela Politécnica Nacional
+  # twitch_username: TuUsuarioSiQuieres
