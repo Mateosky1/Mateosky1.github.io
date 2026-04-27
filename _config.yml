@@ -1,6 +1,3 @@
-# -----------------------------------------------------------------------------
-# Perfil Profesional - Mateo Pulupa
-# -----------------------------------------------------------------------------
 title: Christopher Mateo Pulupa Herrera
 first_name: Christopher
 middle_name: Mateo
@@ -11,20 +8,11 @@ description: >
   Entusiasta de Redes y Cloud Computing.
 footer_text: >
   © 2026 Christopher Mateo Pulupa Herrera.
-keywords: jekyll, portfolio, EPN, Computación
-lang: en
-icon: ⚛️
 
-# -----------------------------------------------------------------------------
-# Configuración Técnica
-# -----------------------------------------------------------------------------
 url: https://Mateosky1.github.io
 baseurl: ""
 repository: Mateosky1/Mateosky1.github.io
 
-# -----------------------------------------------------------------------------
-# Plugins (Lista blindada para que no falle el header)
-# -----------------------------------------------------------------------------
 plugins:
   - jekyll-feed
   - jekyll-get-json
@@ -33,18 +21,11 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-toc
   - jemoji
-  - jekyll-twitter-plugin
-  - jekyll-scholar
 
-# -----------------------------------------------------------------------------
-# Bibliotecas Obligatorias
-# -----------------------------------------------------------------------------
 third_party_libraries:
   mathjax: true
   bootstrap: true
   fontawesome: true
-  academicons: true
-  jquerry: true
 
 social:
   username: Mateosky1
